@@ -1,0 +1,141 @@
+.header {
+    background: #4b73b5;
+    display: flex;
+    min-height: 75px;
+    width: 100%;
+    align-items: center;
+
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+
+}
+
+.header__contacts address {
+    margin-bottom: 5px;
+ 
+
+}
+
+.header__phone  {
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-style: normal;
+    margin-bottom: 5px;
+}
+
+.header__phone a {
+    color: #ffffff;
+}
+
+.header__work-time {
+    opacity: 0.7;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+    transition-duration:1s;
+    
+
+}
+
+.header__work-time:hover  {
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
+.header__work-time:hover .header__dropdown {
+    display: flex;
+    width: 164px;
+    height: 81px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    position:absolute;
+    top: 60px;
+    border-radius: 3px;
+    right: 0;
+    
+}
+
+
+.header__dropdown {
+    width: 164px;
+    height: 81px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to top, #ffffff 0%, #ffffff 100%);
+    display: none ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    position:absolute;
+    top: 60px;
+    border-radius: 3px;
+    right:0;
+   
+    
+    
+}
+
+
+
+.header__dropdown::before {     
+    content: '';
+    border: 9px solid transparent;
+    border-bottom-color: #ffffff;
+    position: absolute;
+    bottom: 81px;
+    right: 4px;
+    
+}
+
+.header__week {
+    color: #1c5bc3;
+    font-family: "Roboto - Bold" ,sans-serif;
+    font-weight: 700;
+    margin-bottom: 8px;
+    
+}
+
+.header__dinner {
+    color: #221f1f;
+
+    font-weight: 300;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+
+.logo {
+    
+    transition: 250ms;
+    justify-content: center;
+    display: flex;
+    align-items:center; 
+}
+
+.logo:hover {
+    transform: scale(1.1) ;
+    
+    cursor: pointer;
+    
+}

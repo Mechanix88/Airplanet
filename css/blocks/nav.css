@@ -1,0 +1,159 @@
+.nav {
+    width: 180px;
+    margin-top: 45px;
+    color: #221f1f;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    padding-left: 40px;
+    
+}
+
+.nav__list {
+    list-style: none;
+    padding: 0;
+    margin:0; 
+    
+}
+
+.nav__item {
+    padding-bottom: 32px;
+    position: relative;
+}
+
+
+
+.nav__item:first-child .nav__link:before{
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -86px;
+    width: 17px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+}
+
+
+
+.nav__item:last-child .nav__link:before {
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -162px;
+    width: 23px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+
+}
+
+.nav__item:nth-child(2) .nav__link:before {
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -10px;   
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+
+}
+
+ 
+
+.nav__item:first-child .nav__link:hover:before {
+    background-position: -10px -124px;
+    transition-duration:0.250s;
+  }
+  
+  .nav__item:nth-child(2) .nav__link:hover:before {
+    background-position: -10px -48px; ;
+    transition-duration:0.250s;
+  }
+  
+  .nav__item:last-child .nav__link:hover:before {
+    background-position: -10px -200px;
+    transition-duration:0.250s;
+  }
+
+
+
+  .nav__link:visited {
+    color: #1c5bc3;
+ 
+ }
+.nav__link:visited {
+   color: #1c5bc3;
+
+}
+.nav__link:hover   {
+    color: #000000 !important ;
+    cursor: pointer;
+}
+.nav__link--active {
+    color:#000000 !important ;
+}
+.nav__link:visited {
+    color: #1c5bc3;
+}
+
+.sidebar {
+    width:180px;
+    display: flex;
+    max-height: 1000px;
+  
+}
+
+.nav__item:nth-child(2) .nav__link--active:before {
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -48px;
+    width: 20px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+
+}
+
+.nav__item:first-child .nav__link--active:before {
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -124px;
+    width: 17px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+}
+
+.nav__item:last-child .nav__link--active:before {
+    content: "" ;
+    background-image: url('/img/Sprite-nav.png') ;
+    background-position: -10px -200px;
+    width: 23px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+    margin-top: 8px;
+    position: absolute;
+    left: -47px;
+    top: -12px;
+}

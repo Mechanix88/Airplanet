@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/Roboto-Bold_1.ttf') format('ttf') ;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/Roboto-light_1.ttf') format('ttf') ;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('../fonts/Roboto-lightitalic_1.ttf') format('ttf') ;
+    font-weight: 300;
+    font-style: italic;
+}

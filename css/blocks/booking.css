@@ -1,0 +1,24 @@
+.booking {
+    background-color: #4bb56b;
+    background-image: url(/img/comments-pattern.png);
+    background-repeat: repeat;
+    background-size: auto;
+    margin-bottom: 58px;
+    width: 100%;
+}
+.booking__text {
+    padding-top: 47px;
+    padding-bottom: 44px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    max-width: 625px;
+    margin: 0 auto;
+}
+
+.booking__link {
+    font-weight: 700;
+    text-decoration: underline;
+    color: #ffffff;
+}
