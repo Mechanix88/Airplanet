@@ -160,7 +160,7 @@ input[type="radio"] + .form__radio-label:after {
 
 .button:after{
     content: "" ;
-    background-image: url(/img/button-fly.png);
+    background-image: url(./../../img/button-fly.png);
     height:14px;
     width:15px; 
     margin-left: 11px;   
@@ -181,7 +181,7 @@ input[type="radio"] + .form__radio-label:after {
 
 .button:hover:after {
     content: "" ;
-    background-image: url(/img/button-fly-hover.png);
+    background-image: url(./../../img/button-fly-hover.png);
     
     
 }

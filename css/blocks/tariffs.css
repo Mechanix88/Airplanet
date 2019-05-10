@@ -13,19 +13,19 @@
 }
 
 .tariffs__icon--flower {
-    background-image: url(/img/flower.png) ;
+    background-image: url(./../../img/flower.png) ;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .tariffs__icon--star {
-    background-image: url(/img/mark-as-favorite-star.png) ;
+    background-image: url(./../../img/mark-as-favorite-star.png) ;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .tariffs__icon--paint {
-    background-image: url(/img/painter-palette.png) ;
+    background-image: url(./../../img/painter-palette.png) ;
     background-repeat: no-repeat;
     background-position: center;
 }

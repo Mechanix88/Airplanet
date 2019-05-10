@@ -39,7 +39,7 @@
     width: 160px;
     height: 160px;
     margin-right: 20px;
-    background-image: url(/img/avatar-svg.svg) ;
+    background-image: url(./../../img/avatar-svg.svg) ;
     background-repeat: no-repeat;
 }
 

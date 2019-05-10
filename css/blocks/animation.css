@@ -1,7 +1,7 @@
 .intro {
     width: 100%;
     height: 100vh;
-    background-image: url(/img/bg-intro.jpg);
+    background-image: url(./../../img/bg-intro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -62,7 +62,7 @@
 
 .intro__logo-button:after {
     content: "" ;
-    background-image: url(/img/intro-button-icon.png);
+    background-image: url(./../../img/intro-button-icon.png);
     height:14px;
     width:15px; 
     margin-left: 9px;
@@ -74,7 +74,7 @@
 
 .intro__logo-button:hover:after {
     content: "" ;
-    background-image: url(/img/button-fly.png);
+    background-image: url(./../../img/button-fly.png);
     height:14px;
     width:15px; 
     margin-left: 9px;

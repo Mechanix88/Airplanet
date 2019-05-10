@@ -63,7 +63,7 @@
 
 .pagination__list:before {
     content: '' ;
-    background-image: url('/img/arrow-back.png') ;
+    background-image: url(./../../img/arrow-back.png) ;
     background-size: 6px 10px;
     width: 6px;
     height: 10px;
@@ -76,7 +76,7 @@
 
 .pagination__list:after {
     content: '' ;
-    background-image: url('/img/arrow-forward.png') ;
+    background-image: url(./../../img/arrow-forward.png) ;
     background-size: 6px 10px;
     width: 6px;
     height: 10px;
