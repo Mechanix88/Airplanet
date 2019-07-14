@@ -50,7 +50,7 @@
     left: 3px;
     width: 18px;
     height: 18px;
-    background-position: -134px -10px;
+    background-position:-133px -10px;
 }
 
 .social__link--facebook::before {
@@ -61,7 +61,7 @@
     width: 18px;
     height: 18px;
    
-    background-position: -10px -10px;
+    background-position: -133px -37px;
 }
 
 .social__link--google::before {
@@ -72,7 +72,7 @@
     width: 18px;
     height: 18px;
     
-    background-position: -36px -10px;
+    background-position: -10px -86px;
 }
 
 .social__link--twitter::before {
@@ -83,7 +83,7 @@
     width: 18px;
     height: 18px;
  
-    background-position: -103px -10px;
+    background-position: -77px -86px;
 }
 
 .social__link--mail::before {
@@ -94,17 +94,10 @@
     width: 18px;
     height: 18px;
   
-    background-position: -71px -10px;
+    background-position: -45px -86px;
 }
    
-
-
-
-
-    
-
 .social__link:hover {
     background-color: #ffffff;
     cursor: pointer;
-
 }
